@@ -24,8 +24,9 @@ class Shoe:
 
 stan_smith = Shoe("Adidas", 9)
 print(stan_smith.brand)  # Output: "Adidas"
-print(stan_smith.size)
+print(stan_smith.size) # Output: 9
 stan_smith.size = 10  # Setting new size
+print(stan_smith.size) #Output: 10
 stan_smith.size = "not an integer"  # This will print an error message
 stan_smith.cobble()  # Output: "Your shoe is as good as new!"
 print(stan_smith.condition)  # Output: "New"
